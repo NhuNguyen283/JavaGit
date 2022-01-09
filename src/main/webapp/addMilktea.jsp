@@ -102,16 +102,13 @@
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
-            <a class="navbar-brand" href="/demo_war_exploded/menu.jsp">Menu</a>
+            <a class="navbar-brand" href="/demo_war_exploded/home.jsp">HOME</a>
         </div>
         <ul class="nav navbar-nav">
-            <li><a href="/demo_war_exploded/adminCoffee">Menu Coffee Agency 1</a></li>
-            <li><a href="/demo_war_exploded/adminCoffee2">Menu Coffee Agency 2</a></li>
-            <li class="active"><a href="/demo_war_exploded/adminMilktea">Menu Milk Tea Agency 1</a></li>
-            <li><a href="/demo_war_exploded/adminMilktea2">Menu Milk Tea Agency 2</a></li>
-            <li><a href="/demo_war_exploded/adminEmployee?name=agency1">Employee</a></li>
-            <li><a href="/demo_war_exploded/reportAgency1">Report Of Agency 1</a></li>
-            <li><a href="/demo_war_exploded/reportAgency2">Report Of Agency 2</a></li>
+            <li><a href="/demo_war_exploded/coffee2">Coffee</a></li>
+            <li><a href="/demo_war_exploded/milktea2">Milktea</a></li>
+            <li class="active"><a href="/demo_war_exploded/agency2?name=agency2">Agency</a></li>
+            <li><a href="/demo_war_exploded/total">Total Report Daily</a></li>
         </ul>
         <div class="navbar-form navbar-right">
             <a href="./logout">Log Out</a>

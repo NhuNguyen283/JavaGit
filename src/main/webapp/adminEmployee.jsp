@@ -103,7 +103,7 @@
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
-            <a class="navbar-brand" href="/demo_war_exploded/menu.jsp">Menu</a>
+            <a class="navbar-brand" href="/demo_war_exploded/home.jsp">HOME</a>
         </div>
         <ul class="nav navbar-nav">
             <li><a href="/demo_war_exploded/adminCoffee">Menu Coffee Agency 1</a></li>

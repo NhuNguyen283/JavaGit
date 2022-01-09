@@ -51,8 +51,28 @@
             background-color: #555;
             color: white;
         }
-    </style>
-    <style>
+        .navbar {
+            font-family: Montserrat, sans-serif;
+            margin-bottom: 0;
+            background-color: #2d2d30;
+            border: 0;
+            font-size: 11px !important;
+            letter-spacing: 4px;
+            opacity: 0.9;
+        }
+        .navbar li a, .navbar .navbar-brand {
+            color: #d5d5d5 !important;
+        }
+        .navbar-nav li a:hover {
+            color: #fff !important;
+        }
+        .navbar-nav li.active a {
+            color: #fff !important;
+            background-color: #29292c !important;
+        }
+        .navbar-default .navbar-toggle {
+            border-color: transparent;
+        }
         table {
             border-collapse: collapse;
             border-spacing: 0;
@@ -74,7 +94,7 @@
 <nav class="navbar navbar-inverse">
     <div class="container-fluid">
         <div class="navbar-header">
-            <a class="navbar-brand" href="/demo_war_exploded/menu.jsp">Menu</a>
+            <a class="navbar-brand" href="/demo_war_exploded/home.jsp">HOME</a>
         </div>
         <ul class="nav navbar-nav">
             <li><a href="/demo_war_exploded/coffee2">Coffee</a></li>
